@@ -17,7 +17,7 @@ pipeline {
                     // 检出代码
                     checkout([$class: 'GitSCM',
                         branches: [[name: "*/${params.BRANCH}"]],
-                        userRemoteConfigs: [[url: 'https://github.com/siwenbailei/iot-dc3.git']]
+                        userRemoteConfigs: [[url: 'https://bgithub.xyz/siwenbailei/iot-dc3.git']]
                     ])
                 }
             }
